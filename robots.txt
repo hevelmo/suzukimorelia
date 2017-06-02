@@ -19,4 +19,4 @@ Disallow: /incorporate
 Disallow: /incorporate/
 Disallow: /lib
 Disallow: /lib/
-Sitemap: http://suzukimorelia.com.mx/sitemap.xml
+Sitemap: http://suzukicolima.com.mx/sitemap.xml
