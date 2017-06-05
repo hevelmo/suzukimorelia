@@ -11,9 +11,9 @@
 
 $devServerList = array("127.0.0.1","::1","192.168.0.102","localhost");
 $url = $_SERVER['SERVER_NAME'];
-if ($url = "suzukicolima") {
-    $folderDev = "suzukicolima";    
-    $location = "Colima";
+if ($url = "suzukimorelia") {
+    $folderDev = "suzukimorelia";    
+    $location = "Morelia";
 }
 
 if(!in_array($_SERVER['SERVER_NAME'], $devServerList)){

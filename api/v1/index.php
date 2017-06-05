@@ -357,12 +357,13 @@ $app = new \Slim\App($container);
             parent::__construct(array(), array(), "contact.twig");
         }
         public function __invoke($request, $response, $args) {
-            $domain = "colima";
+            $domain = "morelia";
             $url  = "http://suzuki". $domain .".com.mx/";
             /*
             $mail_to = "hevelmo060683@gmail.com";
             */
             $mail_to = "mercadotecnia@suzuki-lm.com.mx";
+            $mail_cc = "gtecomercial@suzukicolima.com.mx";
             $from_email = "noreply@clicktolead.com.mx";
             $website = $url;
 
@@ -375,10 +376,22 @@ $app = new \Slim\App($container);
                 "from_email" => $from_email,
                 "from_name" => $property->nombre . " " . $property->apellido,
                 "to" => array(
+                    /*
                     array(
                         "email" => $mail_to,
                         "name" => $property->agencia,
                         "type" => "to"
+                    )
+                    */
+                    array(
+                        "email" => $mail_to,
+                        "name" => $property->agencia,
+                        "type" => "to"
+                    ),
+                    array(
+                        "email" => $mail_cc,
+                        "name" => $property->agencia,
+                        "type" => "cc"
                     )
                 ),
                 "headers" => array(
@@ -386,7 +399,7 @@ $app = new \Slim\App($container);
                 ),
                 "tags" => array(
                     "orden-new-notificacion",
-                    "suzuki-colima",
+                    "suzuki-morelia",
                     "suzuki-contact"
                 ),
                 "google_analytics_domains" => array(
@@ -406,7 +419,7 @@ $app = new \Slim\App($container);
             parent::__construct(array(), array(), "contact_news.twig");
         }
         public function __invoke($request, $response, $args) {
-            $domain = "colima";
+            $domain = "morelia";
             $url  = "http://suzuki". $domain .".com.mx/";
             /*
             $mail_to = "hevelmo060683@gmail.com";
@@ -435,7 +448,7 @@ $app = new \Slim\App($container);
                 ),
                 "tags" => array(
                     "orden-new-notificacion",
-                    "suzuki-colima",
+                    "suzuki-morelia",
                     "suzuki-contact-news"
                 ),
                 "google_analytics_domains" => array(
@@ -455,12 +468,13 @@ $app = new \Slim\App($container);
             parent::__construct(array(), array(), "financing.twig");
         }
         public function __invoke($request, $response, $args) {
-            $domain = "colima";
+            $domain = "morelia";
             $url  = "http://suzuki". $domain .".com.mx/";
             /*
             $mail_to = "hevelmo060683@gmail.com";
             */
             $mail_to = "mercadotecnia@suzuki-lm.com.mx";
+            $mail_cc = "gtecomercial@suzukicolima.com.mx";
             $from_email = "noreply@clicktolead.com.mx";
             $website = $url;
 
@@ -473,11 +487,6 @@ $app = new \Slim\App($container);
                 "from_email" => $from_email,
                 "from_name" => $property->nombre . " " . $property->apellido,
                 "to" => array(
-                    array(
-                        "email" => $mail_to,
-                        "name" => $property->agencia,
-                        "type" => "to"
-                    )
                     /*
                     array(
                         "email" => $mail_to,
@@ -485,13 +494,23 @@ $app = new \Slim\App($container);
                         "type" => "to"
                     )
                     */
+                    array(
+                        "email" => $mail_to,
+                        "name" => $property->agencia,
+                        "type" => "to"
+                    ),
+                    array(
+                        "email" => $mail_cc,
+                        "name" => $property->agencia,
+                        "type" => "cc"
+                    )
                 ),
                 "headers" => array(
                     "Reply-To" => $mail_to
                 ),
                 "tags" => array(
                     "orden-new-notificacion",
-                    "suzuki-colima",
+                    "suzuki-morelia",
                     "suzuki-financing"
                 ),
                 "google_analytics_domains" => array(
@@ -511,7 +530,7 @@ $app = new \Slim\App($container);
             parent::__construct(array(), array(), "financing_news.twig");
         }
         public function __invoke($request, $response, $args) {
-            $domain = "colima";
+            $domain = "morelia";
             $url  = "http://suzuki". $domain .".com.mx/";
             /*
             $mail_to = "hevelmo060683@gmail.com";
@@ -534,20 +553,13 @@ $app = new \Slim\App($container);
                         "name" => $property->agencia,
                         "type" => "to"
                     )
-                    /*
-                    array(
-                        "email" => $mail_to,
-                        "name" => $property->agencia,
-                        "type" => "to"
-                    )
-                    */
                 ),
                 "headers" => array(
                     "Reply-To" => $mail_to
                 ),
                 "tags" => array(
                     "orden-new-notificacion",
-                    "suzuki-colima",
+                    "suzuki-morelia",
                     "suzuki-financing-newsletter"
                 ),
                 "google_analytics_domains" => array(
@@ -567,12 +579,13 @@ $app = new \Slim\App($container);
             parent::__construct(array(), array(), "testdrive.twig");
         }
         public function __invoke($request, $response, $args) {
-            $domain = "colima";
+            $domain = "morelia";
             $url  = "http://suzuki". $domain .".com.mx/";
             /*
             $mail_to = "hevelmo060683@gmail.com";
             */
             $mail_to = "mercadotecnia@suzuki-lm.com.mx";
+            $mail_cc = "gtecomercial@suzukicolima.com.mx";
             $from_email = "noreply@clicktolead.com.mx";
             $website = $url;
 
@@ -585,12 +598,13 @@ $app = new \Slim\App($container);
                 "from_email" => $from_email,
                 "from_name" => $property->nombre . " " . $property->apellido,
                 "to" => array(
+                    /*
                     array(
                         "email" => $mail_to,
                         "name" => $property->agencia,
                         "type" => "to"
                     )
-                    /*
+                    */
                     array(
                         "email" => $mail_to,
                         "name" => $property->agencia,
@@ -601,14 +615,13 @@ $app = new \Slim\App($container);
                         "name" => $property->agencia,
                         "type" => "cc"
                     )
-                    */
                 ),
                 "headers" => array(
                     "Reply-To" => $mail_to
                 ),
                 "tags" => array(
                     "orden-new-notificacion",
-                    "suzuki-colima",
+                    "suzuki-morelia",
                     "suzuki-testdrive"
                 ),
                 "google_analytics_domains" => array(
@@ -628,7 +641,7 @@ $app = new \Slim\App($container);
             parent::__construct(array(), array(), "testdrive_news.twig");
         }
         public function __invoke($request, $response, $args) {
-            $domain = "colima";
+            $domain = "morelia";
             $url  = "http://suzuki". $domain .".com.mx/";
             /*
             $mail_to = "hevelmo060683@gmail.com";
@@ -651,25 +664,13 @@ $app = new \Slim\App($container);
                         "name" => $property->agencia,
                         "type" => "to"
                     )
-                    /*
-                    array(
-                        "email" => $mail_to,
-                        "name" => $property->agencia,
-                        "type" => "to"
-                    ),
-                    array(
-                        "email" => $mail_cc,
-                        "name" => $property->agencia,
-                        "type" => "cc"
-                    )
-                    */
                 ),
                 "headers" => array(
                     "Reply-To" => $mail_to
                 ),
                 "tags" => array(
                     "orden-new-notificacion",
-                    "suzuki-colima",
+                    "suzuki-morelia",
                     "suzuki-testdrive-newsletter"
                 ),
                 "google_analytics_domains" => array(

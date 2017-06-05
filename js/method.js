@@ -2537,10 +2537,10 @@
                 "agencie": "agencia",
                 "product": "producto",
                 "campaign_max" : "campaign",
-                "news" : "news"
+                "news" : "news",
+                "business_max": "max_id"
             });
             dataRenamed = dataRenamed[0];
-            dataRenamed["business_max"] = $('#suk_agn').find(":selected").data("max-id"); //Max Id;
             dataRenamed["origen_type"] = "2";
             dataRenamed["web_max"] = window.location.href;
             dataRenamed["exit_web"] = window.location.href;
@@ -2657,10 +2657,10 @@
                 "agencie": "agencia",
                 "product": "producto",
                 "campaign_max" : "campaign",
-                "news" : "news"
+                "news" : "news",
+                "business_max": "max_id"
             });
             dataRenamed = dataRenamed[0];
-            dataRenamed["business_max"] = $('#suk_agn').find(":selected").data("max-id"); //Max Id;
             dataRenamed["origen_type"] = "2";
             dataRenamed["web_max"] = window.location.href;
             dataRenamed["exit_web"] = window.location.href;
@@ -2774,10 +2774,10 @@
                 "agencie": "agencia",
                 "product": "producto",
                 "campaign_max" : "campaign",
-                "news" : "news"
+                "news" : "news",
+                "business_max": "max_id"
             });
             dataRenamed = dataRenamed[0];
-            dataRenamed["business_max"] = $('#suk_agn').find(":selected").data("max-id"); //Max Id;
             dataRenamed["origen_type"] = "2";
             dataRenamed["web_max"] = window.location.href;
             dataRenamed["exit_web"] = window.location.href;

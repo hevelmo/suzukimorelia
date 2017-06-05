@@ -131,6 +131,7 @@ class __TwigTemplate_21b525726d3b59c7e3e748563b7c5d88fc0ddf9073ab652d782db5ec81b
         // line 96
         echo twig_escape_filter($this->env, (isset($context["_loc"]) ? $context["_loc"] : null), "html", null, true);
         echo "\">
+                <input type=\"hidden\" id=\"suk_max_id\" name=\"max_id\" value=\"13\">
             </fieldset>
         </div>
     </div>
@@ -159,7 +160,7 @@ class __TwigTemplate_21b525726d3b59c7e3e748563b7c5d88fc0ddf9073ab652d782db5ec81b
         <fieldset>
             <p>
                 Tus datos están a salvo.<br>Para mayor información revisa nuestro <a href=\"";
-        // line 124
+        // line 125
         echo twig_escape_filter($this->env, (isset($context["_host"]) ? $context["_host"] : null), "html", null, true);
         echo "aviso-de-privacidad\" id=\"go-privacy-notice\">Aviso de Privacidad</a>
             </p>
@@ -180,7 +181,7 @@ class __TwigTemplate_21b525726d3b59c7e3e748563b7c5d88fc0ddf9073ab652d782db5ec81b
 
     public function getDebugInfo()
     {
-        return array (  163 => 124,  132 => 96,  128 => 95,  123 => 93,  119 => 92,  115 => 91,  111 => 90,  23 => 4,  19 => 1,);
+        return array (  164 => 125,  132 => 96,  128 => 95,  123 => 93,  119 => 92,  115 => 91,  111 => 90,  23 => 4,  19 => 1,);
     }
 }
 /* <form id="financing">*/
@@ -279,6 +280,7 @@ class __TwigTemplate_21b525726d3b59c7e3e748563b7c5d88fc0ddf9073ab652d782db5ec81b
 /*                 <input type="hidden" name="news" id="suk_news" value="0">*/
 /*                 <input type="hidden" name="campaign" id="suk_campaign" value="Suzuki Autos {{ _loc }} - Financiamiento">*/
 /*                 <input type="hidden" id="suk_agn" name="agencia" value="Suzuki Autos {{ _loc }}">*/
+/*                 <input type="hidden" id="suk_max_id" name="max_id" value="13">*/
 /*             </fieldset>*/
 /*         </div>*/
 /*     </div>*/
