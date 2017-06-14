@@ -18,18 +18,6 @@ class __TwigTemplate_523971c63baa026a5a3238695c4371fa9c64a8ca1fb441c7ef0ae93a189
         // line 2
         echo "    <div class=\"specifications-wrapper\">
         <div class=\"specifications\" id=\"features-wrapper\">
-            <!-- slide extra -->
-            <div class=\"specification\" style=\"background-image: url('";
-        // line 5
-        echo twig_escape_filter($this->env, (isset($context["_host"]) ? $context["_host"] : null), "html", null, true);
-        echo "img/sections/home/slider/SLIDER-DE-PROMOCIONES-1659X655-GUADALAJARA.jpg');\">
-                <div class=\"title-wrapper\" style=\"color: #fff\">
-                    <div class=\"title\">
-                       &nbsp;
-                    </div>
-                </div>
-                <div class=\"description compact\"><p>&nbsp;</p></div>
-            </div>
             ";
         // line 30
         echo "            ";
@@ -87,12 +75,13 @@ class __TwigTemplate_523971c63baa026a5a3238695c4371fa9c64a8ca1fb441c7ef0ae93a189
 
     public function getDebugInfo()
     {
-        return array (  65 => 105,  54 => 77,  51 => 76,  40 => 51,  37 => 50,  35 => 30,  24 => 5,  19 => 2,);
+        return array (  53 => 105,  42 => 77,  39 => 76,  28 => 51,  25 => 50,  23 => 30,  19 => 2,);
     }
 }
 /* {# INICIO DE NUEVO SLIDER #}*/
 /*     <div class="specifications-wrapper">*/
 /*         <div class="specifications" id="features-wrapper">*/
+/*             {#*/
 /*             <!-- slide extra -->*/
 /*             <div class="specification" style="background-image: url('{{ _host }}img/sections/home/slider/SLIDER-DE-PROMOCIONES-1659X655-GUADALAJARA.jpg');">*/
 /*                 <div class="title-wrapper" style="color: #fff">*/
@@ -102,7 +91,6 @@ class __TwigTemplate_523971c63baa026a5a3238695c4371fa9c64a8ca1fb441c7ef0ae93a189
 /*                 </div>*/
 /*                 <div class="description compact"><p>&nbsp;</p></div>*/
 /*             </div>*/
-/*             {#*/
 /*             <!-- slide extra -->*/
 /*             <div class="specification" style="background-image: url('img/sections/home/slider/SLIDER-DE-PROMOCIONES-02.jpg');">*/
 /*                 <div class="title-wrapper" style="color: #fff">*/
