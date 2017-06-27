@@ -363,7 +363,7 @@ $app = new \Slim\App($container);
             $mail_to = "hevelmo060683@gmail.com";
             */
             $mail_to = "mercadotecnia@suzuki-lm.com.mx";
-            $mail_cc = "gtecomercial@suzukicolima.com.mx";
+            $mail_cc = "gtecomercial@suzukimorelia.com.mx";
             $from_email = "noreply@clicktolead.com.mx";
             $website = $url;
 
@@ -474,7 +474,7 @@ $app = new \Slim\App($container);
             $mail_to = "hevelmo060683@gmail.com";
             */
             $mail_to = "mercadotecnia@suzuki-lm.com.mx";
-            $mail_cc = "gtecomercial@suzukicolima.com.mx";
+            $mail_cc = "gtecomercial@suzukimorelia.com.mx";
             $from_email = "noreply@clicktolead.com.mx";
             $website = $url;
 
@@ -585,7 +585,7 @@ $app = new \Slim\App($container);
             $mail_to = "hevelmo060683@gmail.com";
             */
             $mail_to = "mercadotecnia@suzuki-lm.com.mx";
-            $mail_cc = "gtecomercial@suzukicolima.com.mx";
+            $mail_cc = "gtecomercial@suzukimorelia.com.mx";
             $from_email = "noreply@clicktolead.com.mx";
             $website = $url;
 

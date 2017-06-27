@@ -2657,6 +2657,7 @@
                 "agencie": "agencia",
                 "product": "producto",
                 "campaign_max" : "campaign",
+                "comment": "mensaje",
                 "news" : "news",
                 "business_max": "max_id"
             });
@@ -2774,6 +2775,7 @@
                 "agencie": "agencia",
                 "product": "producto",
                 "campaign_max" : "campaign",
+                "comment": "mensaje",
                 "news" : "news",
                 "business_max": "max_id"
             });
