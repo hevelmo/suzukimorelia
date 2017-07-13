@@ -30,27 +30,23 @@ class __TwigTemplate_fd5cfe49bc1f3563ad690eefe44023d872fec82eb7e2fc42a4a44bab6f0
                     <div id=\"content-section-form-contact\">
                         ";
         // line 13
-        $this->loadTemplate("contacto/container.twig", "contacto/container.twig", 13, "1436884469")->display($context);
+        $this->loadTemplate("contacto/container.twig", "contacto/container.twig", 13, "1413339583")->display($context);
         // line 14
         echo "                    </div>
                     <div class=\"contact_sidebar\">
                         <div class=\"contact_social\">
-                            <p class=\"contact_social_title\">Domicilio Vallarta</p>
-                            <p>Av. Vallarta No. 5300.</p>
-                            <p>Col. Jardines Vallarta. Zapopan, Jal.
-                            <p>Tel. 01(33)3777-1989</p>
-                            <p>CP. 45027</p>
-                        <br>
-                            <p class=\"contact_social_title\">Domicilio López Mateos</p>
-                            <p>Av. López Mateos Núm. 5654</p>
-                            <p>Col. Arboledas, Zapopan, Jalisco.</p>
-                            <p>Tel. 01-(33)-3884-8200</p>
-                            <p>CP. 45070</p>
+                            <p class=\"contact_social_title\">Domicilio Morelia</p>
+                            <p>Periférico Paseo de la República 3169</p>
+                            <p>Colonia Las Américas</p>
+                            <p>Morelia, Michoacán, </p>
+                            <p>Tel. 01-(443)-500-53-00</p>
+                            <p>C.P. 58270 </p>
                         <br>
                             <p class=\"contact_social_title\">Redes sociales</p>
                             <p>Comparte tus experiencias con la comunidad Suzuki</p>
-                            <div class=\"social fb\"><a onclick=\"ga('send', 'event', 'Social', 'Liga_externa', 'Contacto_Facebook');\" href=\"http://facebook.com/SuzukiGuadalajaraLopezMateosYAvVallarta\" target=\"_blank\">Suzuki GDL</a></div>
-                            <div class=\"social tw\"><a onclick=\"ga('send', 'event', 'Social', 'Liga_externa', 'Contacto_Instagram');\" href=\"http://twitter.com/Suzuki_Gdl\" target=\"_blank\">Suzuki GDL</a></div>
+                            <div class=\"social fb\"><a onclick=\"ga('send', 'event', 'Social', 'Liga_externa', 'Contacto_Facebook');\" href=\"https://www.facebook.com/pages/Suzuki-Morelia/1458185144458990\" target=\"_blank\">Facebook</a></div>
+                            <div class=\"social tw\"><a onclick=\"ga('send', 'event', 'Social', 'Liga_externa', 'Contacto_Twitter_Morelia');\" href=\"https://twitter.com/SuzukiMorelia\" target=\"_blank\">Twitter</a></div>
+                            <div class=\"social in\"><a onclick=\"ga('send', 'event', 'Social', 'Liga_externa', 'Contacto_Instagram_Guadalajara');\" href=\"https://www.instagram.com/suzukiguadalajara/\" target=\"_blank\">Instagram</a></div>
                         </div>
                     </div>
                     <div class=\"clearfix\"></div>
@@ -80,7 +76,7 @@ class __TwigTemplate_fd5cfe49bc1f3563ad690eefe44023d872fec82eb7e2fc42a4a44bab6f0
 
 
 /* contacto/container.twig */
-class __TwigTemplate_fd5cfe49bc1f3563ad690eefe44023d872fec82eb7e2fc42a4a44bab6f029222_1436884469 extends Twig_Template
+class __TwigTemplate_fd5cfe49bc1f3563ad690eefe44023d872fec82eb7e2fc42a4a44bab6f029222_1413339583 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {
@@ -114,7 +110,7 @@ class __TwigTemplate_fd5cfe49bc1f3563ad690eefe44023d872fec82eb7e2fc42a4a44bab6f0
 
     public function getDebugInfo()
     {
-        return array (  90 => 13,  35 => 14,  33 => 13,  19 => 1,);
+        return array (  86 => 13,  35 => 14,  33 => 13,  19 => 1,);
     }
 }
 /* <div id="content-content">*/
@@ -133,22 +129,18 @@ class __TwigTemplate_fd5cfe49bc1f3563ad690eefe44023d872fec82eb7e2fc42a4a44bab6f0
 /*                     </div>*/
 /*                     <div class="contact_sidebar">*/
 /*                         <div class="contact_social">*/
-/*                             <p class="contact_social_title">Domicilio Vallarta</p>*/
-/*                             <p>Av. Vallarta No. 5300.</p>*/
-/*                             <p>Col. Jardines Vallarta. Zapopan, Jal.*/
-/*                             <p>Tel. 01(33)3777-1989</p>*/
-/*                             <p>CP. 45027</p>*/
-/*                         <br>*/
-/*                             <p class="contact_social_title">Domicilio López Mateos</p>*/
-/*                             <p>Av. López Mateos Núm. 5654</p>*/
-/*                             <p>Col. Arboledas, Zapopan, Jalisco.</p>*/
-/*                             <p>Tel. 01-(33)-3884-8200</p>*/
-/*                             <p>CP. 45070</p>*/
+/*                             <p class="contact_social_title">Domicilio Morelia</p>*/
+/*                             <p>Periférico Paseo de la República 3169</p>*/
+/*                             <p>Colonia Las Américas</p>*/
+/*                             <p>Morelia, Michoacán, </p>*/
+/*                             <p>Tel. 01-(443)-500-53-00</p>*/
+/*                             <p>C.P. 58270 </p>*/
 /*                         <br>*/
 /*                             <p class="contact_social_title">Redes sociales</p>*/
 /*                             <p>Comparte tus experiencias con la comunidad Suzuki</p>*/
-/*                             <div class="social fb"><a onclick="ga('send', 'event', 'Social', 'Liga_externa', 'Contacto_Facebook');" href="http://facebook.com/SuzukiGuadalajaraLopezMateosYAvVallarta" target="_blank">Suzuki GDL</a></div>*/
-/*                             <div class="social tw"><a onclick="ga('send', 'event', 'Social', 'Liga_externa', 'Contacto_Instagram');" href="http://twitter.com/Suzuki_Gdl" target="_blank">Suzuki GDL</a></div>*/
+/*                             <div class="social fb"><a onclick="ga('send', 'event', 'Social', 'Liga_externa', 'Contacto_Facebook');" href="https://www.facebook.com/pages/Suzuki-Morelia/1458185144458990" target="_blank">Facebook</a></div>*/
+/*                             <div class="social tw"><a onclick="ga('send', 'event', 'Social', 'Liga_externa', 'Contacto_Twitter_Morelia');" href="https://twitter.com/SuzukiMorelia" target="_blank">Twitter</a></div>*/
+/*                             <div class="social in"><a onclick="ga('send', 'event', 'Social', 'Liga_externa', 'Contacto_Instagram_Guadalajara');" href="https://www.instagram.com/suzukiguadalajara/" target="_blank">Instagram</a></div>*/
 /*                         </div>*/
 /*                     </div>*/
 /*                     <div class="clearfix"></div>*/

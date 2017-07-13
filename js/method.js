@@ -2540,7 +2540,10 @@
                 "news" : "news",
                 "business_max": "max_id"
             });
+            date = SUK.getValue('#suk_date');
+            console.log(date);
             dataRenamed = dataRenamed[0];
+            dataRenamed["comment"] = "Fecha de prueba de Manejo: " + date;
             dataRenamed["origen_type"] = "2";
             dataRenamed["web_max"] = window.location.href;
             dataRenamed["exit_web"] = window.location.href;
