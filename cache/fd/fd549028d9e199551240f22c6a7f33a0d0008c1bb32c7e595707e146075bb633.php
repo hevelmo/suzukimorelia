@@ -67,15 +67,9 @@ class __TwigTemplate_5f9982b7e9fe5ff25c39c8eae2b80f1730fb525b3ece9bd362acbc7b8a7
                             <span>Swift</span>
                         </a>
                     </li>
-                    <li>
-                        <a href=\"";
-        // line 51
-        echo twig_escape_filter($this->env, (isset($context["_host"]) ? $context["_host"] : null), "html", null, true);
-        echo "catalogos/kizashi\" class=\"scroll-up\">
-                            <span>Kizashi</span>
-                        </a>
-                    </li>
-                    <li>
+                    ";
+        // line 55
+        echo "                    <li>
                         <a href=\"";
         // line 56
         echo twig_escape_filter($this->env, (isset($context["_host"]) ? $context["_host"] : null), "html", null, true);
@@ -173,9 +167,18 @@ class __TwigTemplate_5f9982b7e9fe5ff25c39c8eae2b80f1730fb525b3ece9bd362acbc7b8a7
         <div class=\"footer-row first row-1\">
             <div class=\"footer-column column-a cubic\">
                 <div class=\"footer-title cubic-header\">
-                    <a ";
-        // line 139
-        echo " style=\"color: #fff; font-weight: 900; font-size: 16px;\">Suzuki Colima</a>
+                    <a href=\"http://www.suzukimorelia.com.mx\" target=\"_blank\" style=\"color: #fff; font-weight: 900; font-size: 16px;\">Suzuki Morelia</a>
+                </div>
+                <div class=\"cubic-body\">
+                    Periférico Paseo de la República 3169 Colonia Las Américas<br/>
+                    Morelia, Michoacán, C.P. 58270 <br>
+                    Tel. 01-(443)-500-53-00
+                </div>
+                <div class=\"clearfix\"></div>
+            </div>
+            <div class=\"footer-column column-a cubic\">
+                <div class=\"footer-title cubic-header\">
+                    <a href=\"http://www.suzukicolima.com.mx\" target=\"_blank\" style=\"color: #fff; font-weight: 900; font-size: 16px;\">Suzuki Colima</a>
                 </div>
                 <div class=\"cubic-body\">
                     Av. Felipe Sevilla No. 536<br/>
@@ -186,35 +189,7 @@ class __TwigTemplate_5f9982b7e9fe5ff25c39c8eae2b80f1730fb525b3ece9bd362acbc7b8a7
             </div>
             <div class=\"footer-column column-a cubic\">
                 <div class=\"footer-title cubic-header\">
-                    <a ";
-        // line 150
-        echo " style=\"color: #fff; font-weight: 900; font-size: 16px;\">Suzuki Av. López Mateos</a>
-                </div>
-                <div class=\"cubic-body\">
-                    Av. López Mateos No. 5654<br/>
-                    Col. Arboledas. Zapopan, Jal.<br/>
-                    Tel. 01(33)3884-8200
-                </div>
-                <div class=\"clearfix\"></div>
-            </div>
-            <div class=\"footer-column column-a cubic\">
-                <div class=\"footer-title cubic-header\">
-                    <a ";
-        // line 161
-        echo " style=\"color: #fff; font-weight: 900; font-size: 16px;\">Suzuki Av. Vallarta</a>
-                </div>
-                <div class=\"cubic-body\">
-                    Av. Vallarta No. 5300.<br/>
-                    Col. Jardines Vallarta. Zapopan, Jal.<br/>
-                    Tel. 01(33)3777-1989
-                </div>
-                <div class=\"clearfix\"></div>
-            </div>
-            <div class=\"footer-column column-a cubic\">
-                <div class=\"footer-title cubic-header\">
-                    <a ";
-        // line 172
-        echo " style=\"color: #fff; font-weight: 900; font-size: 16px;\">Suzuki Manzanillo</a>
+                    <a href=\"http://www.suzukicolima.com.mx\" target=\"_blank\" style=\"color: #fff; font-weight: 900; font-size: 16px;\">Suzuki Manzanillo</a>
                 </div>
                 <div class=\"cubic-body\">
                     BLV. Miguel de la Madrid Hurtado 1058<br/>
@@ -225,14 +200,23 @@ class __TwigTemplate_5f9982b7e9fe5ff25c39c8eae2b80f1730fb525b3ece9bd362acbc7b8a7
             </div>
             <div class=\"footer-column column-a cubic\">
                 <div class=\"footer-title cubic-header\">
-                    <a ";
-        // line 183
-        echo " style=\"color: #fff; font-weight: 900; font-size: 16px;\">Suzuki Morelia</a>
+                    <a href=\"http://www.suzuki-lm.com.mx\" target=\"_blank\" style=\"color: #fff; font-weight: 900; font-size: 16px;\">Suzuki Av. López Mateos</a>
                 </div>
                 <div class=\"cubic-body\">
-                    Periférico Paseo de la República 3169 Colonia Las Américas<br/>
-                    Morelia, Michoacán, C.P. 58270 <br>
-                    Tel. 01-(443)-500-53-00
+                    Av. López Mateos No. 5654<br/>
+                    Col. Arboledas. Zapopan, Jal.<br/>
+                    Tel. 01(33)3884-8200
+                </div>
+                <div class=\"clearfix\"></div>
+            </div>
+            <div class=\"footer-column column-a cubic\">
+                <div class=\"footer-title cubic-header\">
+                    <a href=\"http://www.suzukivallarta.com.mx\" target=\"_blank\" style=\"color: #fff; font-weight: 900; font-size: 16px;\">Suzuki Av. Vallarta</a>
+                </div>
+                <div class=\"cubic-body\">
+                    Av. Vallarta No. 5300.<br/>
+                    Col. Jardines Vallarta. Zapopan, Jal.<br/>
+                    Tel. 01(33)3777-1989
                 </div>
                 <div class=\"clearfix\"></div>
             </div>
@@ -278,7 +262,7 @@ class __TwigTemplate_5f9982b7e9fe5ff25c39c8eae2b80f1730fb525b3ece9bd362acbc7b8a7
 
     public function getDebugInfo()
     {
-        return array (  257 => 200,  253 => 199,  244 => 195,  230 => 183,  217 => 172,  204 => 161,  191 => 150,  178 => 139,  167 => 131,  161 => 127,  154 => 121,  133 => 101,  125 => 94,  115 => 78,  107 => 73,  99 => 68,  91 => 63,  81 => 56,  73 => 51,  65 => 46,  57 => 41,  35 => 21,  28 => 9,  19 => 2,);
+        return array (  241 => 200,  237 => 199,  228 => 195,  161 => 131,  155 => 127,  148 => 121,  127 => 101,  119 => 94,  109 => 78,  101 => 73,  93 => 68,  85 => 63,  75 => 56,  72 => 55,  65 => 46,  57 => 41,  35 => 21,  28 => 9,  19 => 2,);
     }
 }
 /* {# Begin: Footer #}*/
@@ -330,11 +314,11 @@ class __TwigTemplate_5f9982b7e9fe5ff25c39c8eae2b80f1730fb525b3ece9bd362acbc7b8a7
 /*                             <span>Swift</span>*/
 /*                         </a>*/
 /*                     </li>*/
-/*                     <li>*/
+/*                     {#<li>*/
 /*                         <a href="{{ _host }}catalogos/kizashi" class="scroll-up">*/
 /*                             <span>Kizashi</span>*/
 /*                         </a>*/
-/*                     </li>*/
+/*                     </li>#}*/
 /*                     <li>*/
 /*                         <a href="{{ _host }}catalogos/s-cross" class="scroll-up">*/
 /*                             <span>S-Cross</span>*/
@@ -419,7 +403,18 @@ class __TwigTemplate_5f9982b7e9fe5ff25c39c8eae2b80f1730fb525b3ece9bd362acbc7b8a7
 /*         <div class="footer-row first row-1">*/
 /*             <div class="footer-column column-a cubic">*/
 /*                 <div class="footer-title cubic-header">*/
-/*                     <a {#href="http://www.suzukicolima.com.mx" target="_blank"#} style="color: #fff; font-weight: 900; font-size: 16px;">Suzuki Colima</a>*/
+/*                     <a href="http://www.suzukimorelia.com.mx" target="_blank" style="color: #fff; font-weight: 900; font-size: 16px;">Suzuki Morelia</a>*/
+/*                 </div>*/
+/*                 <div class="cubic-body">*/
+/*                     Periférico Paseo de la República 3169 Colonia Las Américas<br/>*/
+/*                     Morelia, Michoacán, C.P. 58270 <br>*/
+/*                     Tel. 01-(443)-500-53-00*/
+/*                 </div>*/
+/*                 <div class="clearfix"></div>*/
+/*             </div>*/
+/*             <div class="footer-column column-a cubic">*/
+/*                 <div class="footer-title cubic-header">*/
+/*                     <a href="http://www.suzukicolima.com.mx" target="_blank" style="color: #fff; font-weight: 900; font-size: 16px;">Suzuki Colima</a>*/
 /*                 </div>*/
 /*                 <div class="cubic-body">*/
 /*                     Av. Felipe Sevilla No. 536<br/>*/
@@ -430,29 +425,7 @@ class __TwigTemplate_5f9982b7e9fe5ff25c39c8eae2b80f1730fb525b3ece9bd362acbc7b8a7
 /*             </div>*/
 /*             <div class="footer-column column-a cubic">*/
 /*                 <div class="footer-title cubic-header">*/
-/*                     <a {#href="http://www.suzuki-lm.com.mx" target="_blank"#} style="color: #fff; font-weight: 900; font-size: 16px;">Suzuki Av. López Mateos</a>*/
-/*                 </div>*/
-/*                 <div class="cubic-body">*/
-/*                     Av. López Mateos No. 5654<br/>*/
-/*                     Col. Arboledas. Zapopan, Jal.<br/>*/
-/*                     Tel. 01(33)3884-8200*/
-/*                 </div>*/
-/*                 <div class="clearfix"></div>*/
-/*             </div>*/
-/*             <div class="footer-column column-a cubic">*/
-/*                 <div class="footer-title cubic-header">*/
-/*                     <a {#href="http://www.suzukivallarta.com.mx" target="_blank"#} style="color: #fff; font-weight: 900; font-size: 16px;">Suzuki Av. Vallarta</a>*/
-/*                 </div>*/
-/*                 <div class="cubic-body">*/
-/*                     Av. Vallarta No. 5300.<br/>*/
-/*                     Col. Jardines Vallarta. Zapopan, Jal.<br/>*/
-/*                     Tel. 01(33)3777-1989*/
-/*                 </div>*/
-/*                 <div class="clearfix"></div>*/
-/*             </div>*/
-/*             <div class="footer-column column-a cubic">*/
-/*                 <div class="footer-title cubic-header">*/
-/*                     <a {#href="http://www.suzukicolima.com.mx" target="_blank"#} style="color: #fff; font-weight: 900; font-size: 16px;">Suzuki Manzanillo</a>*/
+/*                     <a href="http://www.suzukicolima.com.mx" target="_blank" style="color: #fff; font-weight: 900; font-size: 16px;">Suzuki Manzanillo</a>*/
 /*                 </div>*/
 /*                 <div class="cubic-body">*/
 /*                     BLV. Miguel de la Madrid Hurtado 1058<br/>*/
@@ -463,12 +436,23 @@ class __TwigTemplate_5f9982b7e9fe5ff25c39c8eae2b80f1730fb525b3ece9bd362acbc7b8a7
 /*             </div>*/
 /*             <div class="footer-column column-a cubic">*/
 /*                 <div class="footer-title cubic-header">*/
-/*                     <a {#href="http://www.suzukimorelia.com.mx" target="_blank"#} style="color: #fff; font-weight: 900; font-size: 16px;">Suzuki Morelia</a>*/
+/*                     <a href="http://www.suzuki-lm.com.mx" target="_blank" style="color: #fff; font-weight: 900; font-size: 16px;">Suzuki Av. López Mateos</a>*/
 /*                 </div>*/
 /*                 <div class="cubic-body">*/
-/*                     Periférico Paseo de la República 3169 Colonia Las Américas<br/>*/
-/*                     Morelia, Michoacán, C.P. 58270 <br>*/
-/*                     Tel. 01-(443)-500-53-00*/
+/*                     Av. López Mateos No. 5654<br/>*/
+/*                     Col. Arboledas. Zapopan, Jal.<br/>*/
+/*                     Tel. 01(33)3884-8200*/
+/*                 </div>*/
+/*                 <div class="clearfix"></div>*/
+/*             </div>*/
+/*             <div class="footer-column column-a cubic">*/
+/*                 <div class="footer-title cubic-header">*/
+/*                     <a href="http://www.suzukivallarta.com.mx" target="_blank" style="color: #fff; font-weight: 900; font-size: 16px;">Suzuki Av. Vallarta</a>*/
+/*                 </div>*/
+/*                 <div class="cubic-body">*/
+/*                     Av. Vallarta No. 5300.<br/>*/
+/*                     Col. Jardines Vallarta. Zapopan, Jal.<br/>*/
+/*                     Tel. 01(33)3777-1989*/
 /*                 </div>*/
 /*                 <div class="clearfix"></div>*/
 /*             </div>*/
