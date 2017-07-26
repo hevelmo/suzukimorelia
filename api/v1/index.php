@@ -362,11 +362,11 @@ $app = new \Slim\App($container);
         public function __invoke($request, $response, $args) {
             $domain = "morelia";
             $url  = "http://suzuki". $domain .".com.mx/";
-            $mail_to = "hevelmo060683@gmail.com";
             /*
+            $mail_to = "hevelmo060683@gmail.com";
+            */
             $mail_to = "mercadotecnia@suzuki-lm.com.mx";
             $mail_cc = "gtecomercial@suzukimorelia.com.mx";
-            */
             $from_email = "noreply@clicktolead.com.mx";
             $website = $url;
 
@@ -379,12 +379,13 @@ $app = new \Slim\App($container);
                 "from_email" => $from_email,
                 "from_name" => $property->nombre . " " . $property->apellido,
                 "to" => array(
+                    /*
                     array(
                         "email" => $mail_to,
                         "name" => $property->agencia,
                         "type" => "to"
                     )
-                    /*
+                    */
                     array(
                         "email" => $mail_to,
                         "name" => $property->agencia,
@@ -395,7 +396,6 @@ $app = new \Slim\App($container);
                         "name" => $property->agencia,
                         "type" => "to"
                     )
-                    */
                 ),
                 "headers" => array(
                     "Reply-To" => $mail_to
@@ -424,10 +424,10 @@ $app = new \Slim\App($container);
         public function __invoke($request, $response, $args) {
             $domain = "morelia";
             $url  = "http://suzuki". $domain .".com.mx/";
-            $mail_to = "hevelmo060683@gmail.com";
             /*
-            $mail_to = "webmaster@medigraf.com.mx";
+            $mail_to = "hevelmo060683@gmail.com";
             */
+            $mail_to = "webmaster@medigraf.com.mx";
             $from_email = "noreply@clicktolead.com.mx";
             $website = $url;
 
@@ -473,11 +473,11 @@ $app = new \Slim\App($container);
         public function __invoke($request, $response, $args) {
             $domain = "morelia";
             $url  = "http://suzuki". $domain .".com.mx/";
-            $mail_to = "hevelmo060683@gmail.com";
             /*
+            $mail_to = "hevelmo060683@gmail.com";
+            */
             $mail_to = "mercadotecnia@suzuki-lm.com.mx";
             $mail_cc = "gtecomercial@suzukimorelia.com.mx";
-            */
             $from_email = "noreply@clicktolead.com.mx";
             $website = $url;
 
@@ -490,12 +490,13 @@ $app = new \Slim\App($container);
                 "from_email" => $from_email,
                 "from_name" => $property->nombre . " " . $property->apellido,
                 "to" => array(
+                    /*
                     array(
                         "email" => $mail_to,
                         "name" => $property->agencia,
                         "type" => "to"
                     )
-                    /*
+                    */
                     array(
                         "email" => $mail_to,
                         "name" => $property->agencia,
@@ -506,7 +507,6 @@ $app = new \Slim\App($container);
                         "name" => $property->agencia,
                         "type" => "cc"
                     )
-                    */
                 ),
                 "headers" => array(
                     "Reply-To" => $mail_to
@@ -535,10 +535,10 @@ $app = new \Slim\App($container);
         public function __invoke($request, $response, $args) {
             $domain = "morelia";
             $url  = "http://suzuki". $domain .".com.mx/";
-            $mail_to = "hevelmo060683@gmail.com";
             /*
-            $mail_to = "webmaster@medigraf.com.mx";
+            $mail_to = "hevelmo060683@gmail.com";
             */
+            $mail_to = "webmaster@medigraf.com.mx";
             $from_email = "noreply@clicktolead.com.mx";
             $website = $url;
 
@@ -584,11 +584,11 @@ $app = new \Slim\App($container);
         public function __invoke($request, $response, $args) {
             $domain = "morelia";
             $url  = "http://suzuki". $domain .".com.mx/";
-            $mail_to = "hevelmo060683@gmail.com";
             /*
+            $mail_to = "hevelmo060683@gmail.com";
+            */
             $mail_to = "mercadotecnia@suzuki-lm.com.mx";
             $mail_cc = "gtecomercial@suzukimorelia.com.mx";
-            */
             $from_email = "noreply@clicktolead.com.mx";
             $website = $url;
 
@@ -601,12 +601,13 @@ $app = new \Slim\App($container);
                 "from_email" => $from_email,
                 "from_name" => $property->nombre . " " . $property->apellido,
                 "to" => array(
+                    /*
                     array(
                         "email" => $mail_to,
                         "name" => $property->agencia,
                         "type" => "to"
                     )
-                    /*
+                    */
                     array(
                         "email" => $mail_to,
                         "name" => $property->agencia,
@@ -617,7 +618,6 @@ $app = new \Slim\App($container);
                         "name" => $property->agencia,
                         "type" => "to"
                     )
-                    */
                 ),
                 "headers" => array(
                     "Reply-To" => $mail_to
@@ -646,10 +646,10 @@ $app = new \Slim\App($container);
         public function __invoke($request, $response, $args) {
             $domain = "morelia";
             $url  = "http://suzuki". $domain .".com.mx/";
-            $mail_to = "hevelmo060683@gmail.com";
             /*
-            $mail_to = "webmaster@medigraf.com.mx";
+            $mail_to = "hevelmo060683@gmail.com";
             */
+            $mail_to = "webmaster@medigraf.com.mx";
             $from_email = "noreply@clicktolead.com.mx";
             $website = $url;
 
@@ -705,10 +705,10 @@ $app = new \Slim\App($container);
         public function startProcess($request, $response, $args) {
             $domain = "morelia";
             $url  = "http://suzuki". $domain .".com.mx/";
-            $mail_to = "hevelmo060683@gmail.com";
             /*
-            $mail_to = "reclutamiento@camcar.mx";
+            $mail_to = "hevelmo060683@gmail.com";
             */
+            $mail_to = "reclutamiento@camcar.mx";
             $from_email = "noreply@clicktolead.com.mx";
             $website = $url;
 

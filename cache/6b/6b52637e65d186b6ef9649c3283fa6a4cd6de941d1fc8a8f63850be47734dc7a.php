@@ -150,17 +150,6 @@ class __TwigTemplate_61e7ae3f802cf8ff7c7f7556890760d11f10094a850d9cfc3b840877925
                                                                 </li>
                                                             </ul>
                                                         </li>
-                                                        <li style=\"list-style-type: disc;\">
-                                                            <b>Teléfono:</b>
-                                                            <ul>
-                                                                <li>
-                                                                     <i>";
-        // line 128
-        echo twig_escape_filter($this->env, (isset($context["telefono"]) ? $context["telefono"] : null), "html", null, true);
-        echo "</i>
-                                                                </li>
-                                                            </ul>
-                                                        </li>
                                                     </ol>
                                                     <hr style=\"border: 0; border-top: 1px solid #c51d22; display: block; width: 100%; margin-bottom: 0%;\">
                                                     <ol type=\"1\">
@@ -170,7 +159,7 @@ class __TwigTemplate_61e7ae3f802cf8ff7c7f7556890760d11f10094a850d9cfc3b840877925
                                                             <ul>
                                                                 <li>
                                                                      <i>";
-        // line 140
+        // line 132
         echo twig_escape_filter($this->env, (isset($context["agencia"]) ? $context["agencia"] : null), "html", null, true);
         echo "</i>
                                                                 </li>
@@ -211,7 +200,7 @@ class __TwigTemplate_61e7ae3f802cf8ff7c7f7556890760d11f10094a850d9cfc3b840877925
                                                     <span style=\"font-family: Helvetica; font-weight: normal; text-align: left; display: block; word-break: break-all; padding: 0 20px;\">
                                                         <!--<![endif]-->
                                                         ";
-        // line 178
+        // line 170
         echo twig_escape_filter($this->env, (isset($context["mensaje"]) ? $context["mensaje"] : null), "html", null, true);
         echo "
                                                         <!--[if !mso]><!-->
@@ -239,7 +228,7 @@ class __TwigTemplate_61e7ae3f802cf8ff7c7f7556890760d11f10094a850d9cfc3b840877925
                                                             <!--[if !mso]><!-->
                                                             <span style=\"font-family: Helvetica; font-weight: normal;\"><!--<![endif]-->
                                                                 <a href=\"mailto:";
-        // line 203
+        // line 195
         echo twig_escape_filter($this->env, (isset($context["correo"]) ? $context["correo"] : null), "html", null, true);
         echo "?subject=";
         echo twig_escape_filter($this->env, (isset($context["producto"]) ? $context["producto"] : null), "html", null, true);
@@ -325,7 +314,7 @@ class __TwigTemplate_61e7ae3f802cf8ff7c7f7556890760d11f10094a850d9cfc3b840877925
                             <tr>
                                 <td valign=\"middle\" width=\"100%\" style=\"text-align: left; font-family: Helvetica, Arial, sans-serif; font-size: 13px; color: rgba(255, 255, 255, 0.9); line-height: 24px; text-align: center\">
                                     <!--[if !mso]><!--><span style=\"font-family: Helvetica; font-weight: normal;\"><!--<![endif]-->&copy; ";
-        // line 280
+        // line 272
         echo twig_escape_filter($this->env, (isset($context["_anio"]) ? $context["_anio"] : null), "html", null, true);
         echo " ";
         echo twig_escape_filter($this->env, (isset($context["agencia"]) ? $context["agencia"] : null), "html", null, true);
@@ -370,7 +359,7 @@ class __TwigTemplate_61e7ae3f802cf8ff7c7f7556890760d11f10094a850d9cfc3b840877925
 
     public function getDebugInfo()
     {
-        return array (  329 => 280,  243 => 203,  215 => 178,  174 => 140,  159 => 128,  148 => 120,  135 => 112,  91 => 71,  19 => 1,);
+        return array (  318 => 272,  232 => 195,  204 => 170,  163 => 132,  148 => 120,  135 => 112,  91 => 71,  19 => 1,);
     }
 }
 /* <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />*/
@@ -493,14 +482,6 @@ class __TwigTemplate_61e7ae3f802cf8ff7c7f7556890760d11f10094a850d9cfc3b840877925
 /*                                                             <ul>*/
 /*                                                                 <li>*/
 /*                                                                      <i>{{ correo }}</i>*/
-/*                                                                 </li>*/
-/*                                                             </ul>*/
-/*                                                         </li>*/
-/*                                                         <li style="list-style-type: disc;">*/
-/*                                                             <b>Teléfono:</b>*/
-/*                                                             <ul>*/
-/*                                                                 <li>*/
-/*                                                                      <i>{{ telefono }}</i>*/
 /*                                                                 </li>*/
 /*                                                             </ul>*/
 /*                                                         </li>*/

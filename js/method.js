@@ -2913,7 +2913,7 @@
                 "campaign_max": "campaign"
             });
             dataRenamed = dataRenamed[0];
-            dataRenamed["business_max"] = $('#suk_agn').find(":selected").data("max-id");
+            dataRenamed["business_max"] = "14";
             dataRenamed["news"] = "0";
             dataRenamed["origen_type"] = "2";
             dataRenamed["web_max"] = window.location.href;
